@@ -1,3 +1,5 @@
+server:
+  port: 8083
 name: abc
 
 person:
@@ -5,6 +7,4 @@ person:
   name: zzs
 
 address: [a,b]
-spring:
-  profiles:
-    active: dev
+
