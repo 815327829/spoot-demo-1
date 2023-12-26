@@ -1,10 +1,10 @@
-server:
-  port: 8081
-name: abc
-
-person:
-  age: 12
-  name: zzs
-
-address: [a,b]
+#server:
+#  port: 8081
+#name: abc
+#
+#person:
+#  age: 12
+#  name: zzs
+#
+#address: [a,b]
 

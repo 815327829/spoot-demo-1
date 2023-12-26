@@ -5,6 +5,38 @@ person:
   name: zzs
 
 address: [a,b]
+#spring:
+#  profiles:
+#    active: dev
+---
+server:
+  port: 8081
+
+spring:
+  config:
+    activate:
+      on-profile: test
+---
+server:
+  port: 8082
+
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+
+---
+server:
+  port: 8083
+
+spring:
+  config:
+    activate:
+      on-profile: pro
+
+
+---
 spring:
   profiles:
-    active: dev
+    active: pro
