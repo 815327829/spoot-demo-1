@@ -1,0 +1,10 @@
+#server:
+#  port: 8082
+#name: abc
+#
+#person:
+#  age: 12
+#  name: zzs
+#
+#address: [a,b]
+
