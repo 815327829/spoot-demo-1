@@ -5,6 +5,10 @@ person:
   name: zzs
 
 address: [a,b]
+
+server:
+  servlet:
+    context-path: /hello
 #spring:
 #  profiles:
 #    active: dev
